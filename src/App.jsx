@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>Aquarium Randomizer</h1>
+      <h1>Aquarium Supply</h1>
       <button onClick={addTank} className="add-tank-button">Add Random Tank</button>
       <div className="tiles-container">
         {tanks.map(tank => (
